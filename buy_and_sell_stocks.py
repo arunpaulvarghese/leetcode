@@ -8,7 +8,6 @@ def stockPrice(prices):
         else:
             buy = sell
     return profit
-    return buy, sell
 
 
 
