@@ -10,6 +10,7 @@ def firstString(haystack,needle):
             pre += 1
             lps[i] = pre
 
+
     n = 0
     for h in range(len(haystack)):
         while (n > 0 and needle[n] != haystack[h]):
