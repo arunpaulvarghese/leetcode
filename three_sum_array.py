@@ -18,7 +18,7 @@ def threeSumArray(num):
                 answer.append(triplet)
                 while l < r and num[l] == triplet[1]:
                     l +=1
-                while l < r and num[l] == triplet[2]:
+                while l < r and num[r] == triplet[2]:
                     r -= 1
         return answer
 
