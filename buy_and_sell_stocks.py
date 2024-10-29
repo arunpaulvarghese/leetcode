@@ -1,3 +1,4 @@
+# Program to demonstrate a simple stock market price analysis
 def stockPrice(prices):
     profit = 0
     buy = prices[0]
